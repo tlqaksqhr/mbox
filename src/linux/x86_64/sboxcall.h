@@ -310,3 +310,10 @@
 { 3,    0,      sys_getcpu,                 NULL,   "getcpu"                         },  /* 309 */
 { 6,    0,      sys_process_vm_readv,       NULL,   "process_vm_readv"               },  /* 310 */
 { 6,    0,      sys_process_vm_writev,      NULL,   "process_vm_writev"              },  /* 311 */
+{ 0,    0,      NULL,                       NULL,   NULL                             },  /* 312 */
+{ 0,    0,      NULL,                       NULL,   NULL                             },  /* 313 */
+{ 0,    0,      NULL,                       NULL,   NULL                             },  /* 314 */
+{ 0,    0,      NULL,                       NULL,   NULL                             },  /* 315 */
+{ 0,    0,      NULL,                       NULL,   NULL                             },  /* 316 */
+{ 0,    0,      NULL,                       NULL,   NULL                             },  /* 317 */
+{ 3,    0,      sys_getrandom,              NULL,   "sys_getrandom"                  },  /* 318 */

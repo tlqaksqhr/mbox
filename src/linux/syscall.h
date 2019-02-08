@@ -100,6 +100,7 @@ int sys_getitimer();
 int sys_getpeername();
 int sys_getpmsg();
 int sys_getpriority();
+int sys_getrandom();
 int sys_getresuid();
 int sys_getrlimit();
 int sys_getrusage();
