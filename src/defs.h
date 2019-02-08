@@ -384,7 +384,7 @@ struct tcb {
     long inst[2];                  /* Saved clone args (badly named) */
 
     struct user_regs_struct regs;  /* Registers fetched when entering */
-    int hijacked;                  /* Wheither hijacked or not */
+    int hijacked;                  /* Whether hijacked or not */
     int hijacked_args[MAX_ARGS+1]; /* Hijacked old argument */
     int hijacked_vals[MAX_ARGS+1]; /* Hijacked old value */
 
